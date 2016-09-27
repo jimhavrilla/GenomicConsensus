@@ -3,7 +3,7 @@ INTERNAL_UTILS_PATH = /mnt/secondary/Share/Quiver/Tools
 
 bdist:
 	python setup.py build --executable="/usr/bin/env python"
-	python setup.py bdist --formats=egg
+	python setup.py bdist_egg
 
 install:
 	python setup.py install
